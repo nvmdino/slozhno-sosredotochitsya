@@ -28,6 +28,7 @@
     --stroke-color: rgba(53, 52, 48, 1);
     --stroke-color-hover: rgba(53, 52, 48, 0.4);
     --link-text-shadow: 2px 2px var(--accent-color);
+    --banner-text-shadow: 4px 4px var(--accent-color);
     --background-image-fixed: url(../images/cover-image-light.png);
     --decoration-visibility: hidden;
   }
