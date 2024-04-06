@@ -6,7 +6,7 @@
   --default-text-color-accent-bg: rgba(0, 0, 40, 1);
   --stroke-color: rgba(255, 0, 112, 1);
   --stroke-color-hover: rgba(255, 0, 112, 0.4);
-  --accent-color: rgba(255, 0, 112, 1); 
+  --accent-color: rgba(255, 0, 112, 1);
   --banner-text-shadow: 4px 4px var(--accent-color);
   --link-text-shadow: 2px 2px var(--accent-color);
   --background-image-fixed: url(../images/cover-image-dark.png);
