@@ -66,12 +66,12 @@
   block-size: 25px;
 }
 
-.decorative-element {
-  display: flex; 
-  align-items: center; 
-  gap: 10px; 
+.decorative-element { 
   position: absolute;
   visibility: var(--decoration-visibility);
+  display: flex; 
+  align-items: center; 
+  gap: 10px;
   color: var(--accent-color);
   inset-block-start: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   inset-inline-end: clamp(1.1875rem, 0.5911rem + 2.5445vw, 1.8125rem);
