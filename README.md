@@ -1,1 +1,1 @@
-Yandex ПР-3
+https://github.com/nvmdino/slozhno-sosredotochitsya
