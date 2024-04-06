@@ -9,10 +9,8 @@
   --stroke-color-hover: rgba(53, 52, 48, 0.4);
   --link-text-shadow: 2px 2px var(--accent-color);
   --banner-text-shadow: 4px 4px var(--accent-color);
-
   --background-image-fixed: url(../images/cover-image-light.png);
   --decoration-visibility: hidden;
-
   --default-font-size: 18px;
   --banner-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }

@@ -1,10 +1,10 @@
 /* general styles */
 
 .page {
+  color: var(--default-text-color);
   font-family: 'IBM Plex mono';
   font-size: var(--default-font-size);
   line-height: 23.4px;
-  color: var(--default-text-color);
   background: var(--bg-color) var(--background-image-fixed) no-repeat bottom;
   background-size: cover;
   background-attachment: fixed;
@@ -43,10 +43,10 @@
 /* header styles start */
 
 .banner-area {
-  block-size: 100vh;
-  padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   position: relative;
   margin-block-end: clamp(2.5rem, 1.3073rem + 5.0891vw, 3.75rem);
+  padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+  block-size: 100vh;
 }
 
 .header {
@@ -58,53 +58,53 @@
 .banner-area::before {
   content: "";
   position: absolute;
+  border-inline-end: 1px solid var(--stroke-color);
+  border-block-start: 1px solid var(--stroke-color);
   inset-block-start: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   inset-inline-end: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);;
   inline-size: 25px;
   block-size: 25px;
-  border-block-start: 1px solid var(--stroke-color);
-  border-inline-end: 1px solid var(--stroke-color);
 }
 
 .decorative-element {
-  visibility: var(--decoration-visibility);
   position: absolute;
-  inset-block-start: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
-  inset-inline-end: clamp(1.1875rem, 0.5911rem + 2.5445vw, 1.8125rem);
+  visibility: var(--decoration-visibility);
   display: flex; 
   align-items: center; 
   gap: 10px; 
   color: var(--accent-color);
+  inset-block-start: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+  inset-inline-end: clamp(1.1875rem, 0.5911rem + 2.5445vw, 1.8125rem);
 }
 
 .decorative-element:after {
   content: "";
-  inline-size: 9px;
-  block-size: 9px;
   border-radius: 50%;
   box-shadow: 0px 0px 4px 2px var(--accent-color);
   background-color: var(--accent-color);
+  inline-size: 9px;
+  block-size: 9px;
 }
 
 
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   align-items: flex-end;
+  gap: 10px;
 }
 
 .header__theme-menu-button {
-  color: var(--stroke-color);
-  background-color: transparent;
   border: 1px solid transparent;
-  cursor: pointer;
-  inline-size: 70px;
-  block-size: 26px;
+  color: var(--stroke-color);
   font-family: IBM Plex Mono;
   font-weight: 400;
   line-height: 100%;
   text-transform: lowercase;
+  background-color: transparent;
+  cursor: pointer;
+  inline-size: 70px;
+  block-size: 26px;
 }
 
 .header__theme-menu-button:disabled {
@@ -121,17 +121,17 @@
 
 .hero-text {
   color: var(--hero-text-color);
-  font-size: var(--banner-font-size);
   font-weight: bold;
+  font-size: var(--banner-font-size);
   line-height: 95.7px;
-  text-shadow: var(--banner-text-shadow);
   text-transform: lowercase;
+  text-shadow: var(--banner-text-shadow);
 }
 
 .title-decor {
   color: var(--default-text-color-accent-bg);
-  font-size: var(--default-font-size);
   font-weight: bold;
+  font-size: var(--default-font-size);
   line-height: 23.4px;
   background-color: var(--accent-color);
 }
@@ -139,12 +139,12 @@
 .banner-area::after {
   content: "";
   position: absolute;
+  border-inline-start: 1px solid var(--stroke-color);
+  border-block-end: 1px solid var(--stroke-color);
   inset-inline-start: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   inset-block-end: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   inline-size: 25px;
   block-size: 25px;
-  border-block-end: 1px solid var(--stroke-color);
-  border-inline-start: 1px solid var(--stroke-color);
 }
 
 /* header styles end */
@@ -189,16 +189,16 @@
 
 .gallery-image {
   display: block;
-  inline-size: 100%;
-  object-position: center;
   object-fit: cover;
+  object-position: center;
+  inline-size: 100%;
 }
 
 .footer {
   display: grid;
   place-items: center;
-  margin-block-end: 0;
   margin-block-start: clamp(2.5rem, 1.3073rem + 5.0891vw, 3.75rem);
+  margin-block-end: 0;
   vertical-align: middle;
 }
 
@@ -213,14 +213,14 @@
   }
 
   .hero-text {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);;
     margin-inline-start: -20px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .hero-description {
+    justify-self: end;
     max-width: 50%;
     margin: 0;
-    justify-self: end;
   }
 
   .section {
@@ -260,8 +260,8 @@
 
 @media (width >= 1024px) {
   .header__theme-menu {
-    align-self: start;
     justify-self: center;
+    align-self: start;
   }
 
   .header__theme-menu-list {
