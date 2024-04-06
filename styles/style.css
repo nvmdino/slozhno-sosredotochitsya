@@ -34,7 +34,7 @@
 
 .gallery-list {
   display: grid;
-  gap: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);;
+  gap: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
 }
 
 /* Layout, margins and paddings end*/
@@ -61,17 +61,17 @@
   border-inline-end: 1px solid var(--stroke-color);
   border-block-start: 1px solid var(--stroke-color);
   inset-block-start: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
-  inset-inline-end: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);;
+  inset-inline-end: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   inline-size: 25px;
   block-size: 25px;
 }
 
 .decorative-element {
-  position: absolute;
-  visibility: var(--decoration-visibility);
   display: flex; 
   align-items: center; 
   gap: 10px; 
+  position: absolute;
+  visibility: var(--decoration-visibility);
   color: var(--accent-color);
   inset-block-start: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   inset-inline-end: clamp(1.1875rem, 0.5911rem + 2.5445vw, 1.8125rem);

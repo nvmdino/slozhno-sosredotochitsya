@@ -4,7 +4,7 @@
   --default-text-color: rgba(53, 52, 48, 1);
   --hero-text-color: rgba(255, 194, 230, 1);
   --default-text-color-accent-bg: rgba(53, 52, 48, 1);
-  --accent-color: rgba(255, 141, 203, 1);;
+  --accent-color: rgba(255, 141, 203, 1);
   --stroke-color: rgba(53, 52, 48, 1);
   --stroke-color-hover: rgba(53, 52, 48, 0.4);
   --link-text-shadow: 2px 2px var(--accent-color);
