@@ -271,8 +271,8 @@
 }
 
 @media (width >= 1024px) {
-  .header {
-    grid-template-rows: 1fr minmax(130px, min-content) 1fr;
+  .hero-text {
+    line-height: 0.825;
   }
 
   .header__theme-menu {
