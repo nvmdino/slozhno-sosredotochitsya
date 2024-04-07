@@ -221,9 +221,6 @@
 /* breakpoints start */
 
 @media (width >= 768px) {
-  .header {
-    grid-template-rows: 1fr min-content 1fr;
-  }
 
   .banner-text {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -248,7 +245,6 @@
   }
 
   .gallery-list {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -275,6 +271,10 @@
 }
 
 @media (width >= 1024px) {
+  .header {
+    grid-template-rows: 1fr minmax(130px, min-content) 1fr;
+  }
+
   .header__theme-menu {
     justify-self: center;
     align-self: start;
